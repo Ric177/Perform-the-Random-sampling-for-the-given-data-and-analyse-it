@@ -1,0 +1,16 @@
+Set Cell O1 = Male and Cell O2 = Female
+
+To generate a random sample for male students from given population go to Cell O1 and type
+
+=INDEX(E$2:E$62,RANK(B2,B$2:B$62))
+
+Drag teh formula to the desired no of cell to select random sample.
+
+
+
+Now, to generate a random sample for female students go to cell P1 and type
+
+=INDEX(K$2:K$40,RANK(H2,H$2:H$40))
+
+Drag teh formula to the desired no of cell to select random sample
+
